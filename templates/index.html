@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Ntokozo Xobongo Personal Website</h1>
+        <h1>Welcome to Ntokozo Xobongo's Personal Portfolio.</h1>
         <nav>
             <a href="/">Home</a>
             <a href="/about">About</a>
@@ -16,7 +16,13 @@
         </nav>
     </header>
     <main>
-        <p>This is the homepage of Ntokozo's personal website.</p>
+        <!-- <p>This is the homepage of Ntokozo's personal website.</p> -->
+        <div class="image">
+            <img src="{{ url_for('static', filename='image/Ntokozo Xobongo_Glass.JPG') }}" height="400" width="400" alt="This is an image of Ntokozo">
+        </div>
+        
     </main>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
 </body>
 </html>
